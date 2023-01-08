@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
     // fetch response from the server   -> bot's response
 
-    const response = await fetch('http://localhost:5500/', {
+    const response = await fetch('https://codex-f0lv.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
